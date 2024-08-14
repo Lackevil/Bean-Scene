@@ -1,0 +1,38 @@
+// ----------- Components -----------
+
+.scroll-lock {
+  overflow: hidden;
+}
+
+.logo {
+  text-wrap: nowrap;
+  color: #fff;
+  font-size: clamp(3rem, 5vw, 3.5rem);
+  font-family: 'Clicker Script';
+}
+
+.btn {
+  text-wrap: nowrap;
+  display: inline-block;
+  transition: opacity .3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 6px 12px 0 rgba(249, 192, 106, 0.22);
+  border-radius: 2.4rem;
+  background: $yellow;
+  padding: 1.4rem 2.7rem;
+  color: #1e1e1e;
+  font-weight: 500;
+  font-size: 1.4rem;
+
+  &:hover {
+    opacity: .8;
+  }
+}
+
+.title {
+  color: $coffee;
+  font-weight: 700;
+  font-size: clamp(2.8rem, 5vw, 5.4rem);
+}
+
+// ----------- Components -----------
