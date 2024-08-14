@@ -247,7 +247,7 @@ body {
 // ----------- Hero -----------
 
 .hero {
-  background: linear-gradient(90deg, #1e1e1e 0%, rgba(0, 0, 0, 0) 100%), url('/img/hero/bg.webp') center / cover no-repeat;
+  background: linear-gradient(90deg, #1e1e1e 0%, rgba(0, 0, 0, 0) 100%), url('../img/hero/bg.webp') center / cover no-repeat;
   height: 100dvh;
 
   &__container {
@@ -891,7 +891,7 @@ body {
 .news {
   position: relative;
   margin-top: 13.8rem;
-  background: url('/img/news/bg.webp') center / cover no-repeat;
+  background: url('../img/news/bg.webp') center / cover no-repeat;
   background-attachment: fixed;
   padding: clamp(4rem, 5vw, 8rem) 0;
 
@@ -1005,7 +1005,7 @@ body {
 // ----------- Footer -----------
 
 .footer {
-  background: url('/img/footer/bg.webp') center / cover no-repeat;
+  background: url('../img/footer/bg.webp') center / cover no-repeat;
   padding: clamp(5rem, 5vw, 18.2rem) 0 clamp(4rem, 8vw, 9rem);
   color: #fff;
 
