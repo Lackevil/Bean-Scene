@@ -247,7 +247,7 @@ body {
 // ----------- Hero -----------
 
 .hero {
-  background: linear-gradient(90deg, #1e1e1e 0%, rgba(0, 0, 0, 0) 100%), url(../img/hero/bg.webp) center / cover no-repeat;
+  background: linear-gradient(90deg, #1e1e1e 0%, rgba(0, 0, 0, 0) 100%), url('img/hero/bg.webp') center / cover no-repeat;
   height: 100dvh;
 
   &__container {
